@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(232, 231, 250);
+    text-align: center;
+}
+
+header {
+    border: 4px solid;
+    color: white;
+    border-color: rgb(93, 107, 176);
+    background-color: rgb(93, 107, 176);
+    border-radius: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form {
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+input[type=text] {
+    border: 2px solid rgb(128, 0, 220);
+    border-radius: 4px;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+input[type=radio] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    
+}
+
+.container{
+    display: block;
+  position: relative;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 635px;
+    height: 25px;
+    width: 25px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+
+.container:hover input ~ .checkmark {
+    background-color: #a175bb;
+  }
+  
+  
+  .container input:checked ~ .checkmark {
+    background-color: #9600bc;
+  }
+  
+  input[type=number] {
+    border: 2px solid rgb(128, 0, 220);
+    border-radius: 4px;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=date] {
+    border: 2px solid rgb(128, 0, 220);
+    border-radius: 4px;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  select {
+    border: 2px solid rgb(128, 0, 220);
+    border-radius: 4px;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    background-color:  rgb(177, 107, 242);
+    color: white;
+    border: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 4px;
+    width: 20%;
+    padding: 12px 20px;
+    font-size: larger;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=password] {
+    border: 2px solid rgb(128, 0, 220);
+    border-radius: 4px;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=email] {
+    border: 2px solid rgb(128, 0, 220);
+    border-radius: 4px;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }

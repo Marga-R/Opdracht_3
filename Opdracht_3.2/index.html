@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>TUI</title>
+</head>
+<body>
+    <header>
+        <h1>This is your Travel Form to best find what wonderful travel awaits for you!</h1>
+    </header>
+    <br>
+<form action="">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" pattern="[Z-Aa-z]+" required><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" pattern="[Z-Aa-z]+" required><br>
+        <p>Gender:</p>
+        <label class="container">Man
+            <input type="radio" checked="checked" name="gender">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">Woman
+            <input type="radio" name="gender">
+            <span class="checkmark"></span>
+          </label>    
+    <br>
+        <p>Address:</p>
+        <label for="Shouse">Street and house number:</label><br>
+        <input type="text" id="Shouse" name="Shouse" required><br>
+        <label for="Pcity">Postcode and city:</label><br>
+        <input type="text" id="Pcity" name="Pcity" required><br>
+        <label for="Cty">Country:</label><br>
+        <input type="text" id="Cty" name="Cty" required><br>
+        <label for="BSN">BSN-nummber:</label><br>
+        <input type="number" id="BSN" name="BSN" min="1" max="9" required>
+    <br>
+    <label for="land">Where do you wish to go?</label><br>
+    <select name="land" id="land">
+      <option value="Select">---------------Select Country---------------</option>
+      <option value="Portugal">Portugal</option>
+      <option value="Japan">Japan</option>
+      <option value="Spain">Spain</option>
+      <option value="Netherlands">Netherlands</option>
+      <option value="Brazil">Brazil</option>
+      <option value="Italy">Italy</option>
+      <option value="Germany">Germany</option>
+      <option value="France">France</option>
+    </select>
+    <br>
+        <label for="datemin">Vlight date:</label><br>
+        <input type="date" id="datemin" name="datemin" min="2024-09-18" required><br>
+        <label for="dateback">Vlight back date:</label><br>
+        <input type="date" id="dateback" name="dateback" min="2024-09-18" required><br>
+        <label for="Pnumber">Number of people traveling:</label><br>
+        <input type="number" id="Pnumber" name="Pnumber" min="1" max="4" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd" required><br>
+        <input type="submit" value="Book now">
+</form>
+</body>
+</html>
