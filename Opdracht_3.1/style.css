@@ -5,9 +5,62 @@
 }
 html {
   font-size: 62.5%;
+  font-family: go;
 }
 body {
   font-family: "Goldman", cursive;
+}
+
+.indexbody {
+  background-image: url(/img/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.javabody{
+  background-color: black;
+  color: white;
+}
+
+.mysqlbody{
+  background-color: black;
+  color: white;
+}
+
+.Group_2 {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 22%;
+}
+ 
+.htmlcss{
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.ar_htmlcss{
+border: 1px black solid;
+margin-right: 20rem;
+margin-left: 20rem;
+margin-bottom: 5rem;
+margin-top: 5rem;
+font-size: 15px;
+word-wrap: break-word;
+line-height: 1.6;
+}
+
+.htmlimg{
+  width: 45vw;
+  height: 45vh;
+  margin-left: 150px;
+}
+
+header{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 3rem;
 }
 
 nav {
@@ -36,4 +89,14 @@ nav a {
 }
 nav img {
   width: 5vw;
+}
+
+footer{
+  background-color: #00a8c7;
+  padding: 30px;
+  text-align: center;
+  width: 100%;
+  color: white;
+  position: fixed;
+  bottom: 0; 
 }
